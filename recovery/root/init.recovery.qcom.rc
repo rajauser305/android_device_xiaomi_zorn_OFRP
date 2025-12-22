@@ -49,6 +49,9 @@ on fs
     mount none /tmp/persist /mnt/vendor/persist bind rec
     install_keyring
 
+on post-fs
+    start vendor.variant-script
+
 on boot
     setprop sys.usb.config adb
 

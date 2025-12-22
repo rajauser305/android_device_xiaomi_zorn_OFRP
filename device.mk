@@ -30,9 +30,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Enable Fuse Passthrough
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.fuse.passthrough.enable=true
 
-# Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH):libinit_zorn)
-
 # otacert
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(DEVICE_PATH)/security/releasekey
