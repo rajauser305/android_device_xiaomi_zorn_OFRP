@@ -64,7 +64,7 @@ export FOX_ENABLE_SUKISU_SUPPORT=1
 # For Xiaomi SM8650 Zorn
 export FOX_VARIANT="Xiaomi_Zorn"
 export FOX_MAINTAINER_PATCH_VERSION=$(date +%y%m%d)
-export OF_MAINTAINER="momenabdulrazek"
+export OF_MAINTAINER="FUCK-YOU-BITCH"
 export OF_MAGISK="/tmp/misc/Magisk-v29.0.zip"
 export FOX_USE_SPECIFIC_MAGISK_ZIP=/tmp/misc/Magisk-v29.0.zip
 export OF_SCREEN_H=2400
