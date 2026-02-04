@@ -11,9 +11,8 @@ on:
         description: 'Clean build (remove out directory)'
         required: false
         default: 'false'
-
 jobs:
-  build:
+   build:
     runs-on: ubuntu-latest
     
     env:
